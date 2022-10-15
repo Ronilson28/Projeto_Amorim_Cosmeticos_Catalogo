@@ -8,10 +8,17 @@ function isEmpty(value) {
   
   function validateForm() {
     var nome = document.getElementById('nome')
+    var numero = document.getElementById('numero')
     var email = document.getElementById('email')
-    // verificar se o nome está vazio
+    // verificar se o nome, número e email estão vazios
     if (isEmpty(nome.value)) {
       alert('Nome não informado')
+      nome.focus()
+      return false
+    }
+
+    if (isEmpty(numero.value)) {
+      alert('Número não informado')
       nome.focus()
       return false
     }
