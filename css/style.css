@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #ecffff;
+}
+
+.border {
+  border: 1px solid rgb(236, 255,255);
+}
+
+a {
+  text-decoration: none;
+}
+
+.cabecahlo {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  float: left;
+  font-size: 0;
+  background: url(../images/logo-mobile.png) center center/70px no-repeat;
+}
+
+.btn-menu {
+  width: 50px;
+  height: 50px;
+  float: right;
+  position: fixed;
+  right: 2%;
+  top: 7px;
+  color: #caf1ff;
+  text-align: center;
+  border-radius: 50px;
+  background: linear-gradient(to right, #5550e5, #4880f0);
+}
+
+.menu {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+  background-color: #000000cc;
+}
+
+.btn-close {
+  color: #fff;
+  font-size: 1.5em;
+  float: right;
+  cursor: pointer;
+  margin: 2% 3% 0 0;
+}
+
+.menu ul {
+  width: 100%;
+  float: left;
+  text-align: center;
+  list-style: none;
+}
+
+.menu li {
+  padding: 1.5%;
+}
+
+.menu li a {
+  color: #fff;
+  font-size: 24px;
+  padding: 1.5em 3%;
+}
+
+.menu li a:hover {
+  color:#6cb0ec
+}
+
+
+/* banner */
+.banner, .banner2 {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+  text-align: center;
+  background: blueviolet;
+}
+
+.title h2 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.title2 h2 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.title p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.title2 p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.title, .title2 { width:100%; }
+
+.buttons { 
+  width: 100%; 
+  margin-top: 2%;
+}
+
+.fa-arrow-circle-right {
+   float: right;
+  }
+
+.btn-loja-whatssap, .btn-loja-instagram {
+  width: 100%;
+  padding: 4%;
+  margin-top: 2%;
+  font-size: 1.4em;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-loja-whatssap {
+  color: #130400;
+  background-color: #fff;
+}
+
+.btn-loja-instagram {
+  color: #fff;
+  background-color: #130400;
+}
+
+/* Serviços */
+.servicos {
+  width: 100%;
+  float: left;
+  /* padding: 3% 4%; */
+}
+
+.servicos section {
+  display: table;
+  padding: 3% 4%;
+}
+
+.servicos h2 {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #3a33f2;
+}
+
+#servicos {
+  background-color: #fdb57a;
+}
+
+#quem-somos {
+  background-color:#ce2e3c;
+}
+
+#quem-somos h2 {
+  color: #fff;
+}
+
+.servico {
+  display: table;
+  width: 100%;
+  text-align: left;
+  border-radius: 7px;
+  margin-bottom: 3%;
+  background-color: #fff;
+}
+
+.servico img { 
+  border-radius: 7px 7px 0 0; 
+  width: 100%;
+}
+
+.artigo-quem-somos {
+  display: table;
+  width: 100%;
+  text-align: left;
+  border: 7px;
+  margin-bottom: 3%;
+  background-color: white;
+  border-radius: 7px 7px 0 0;
+}
+
+.artigo-quem-somos img { 
+  border-radius: 7px 7px 0 0; 
+  width: 100%;
+}
+
+
+.inner { padding: 7%; }
+
+.inner a {
+  font-size: 1.5em;
+  color: #130400;
+  font-weight: 700;
+}
+
+.inner h4 {
+  font-size: 1.2em;
+  color: #130400;
+  margin-top: 2%;
+}
+
+.inner p { 
+  margin-top: 6%;
+  color: #130400;
+  line-height: 1.5em;
+}
+
+/* Newsletter */
+.newsletter {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 3% 4%;
+  background-color: #130400;
+}
+
+.newsletter h2 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.btn-sign-up {
+  width: 80%;
+  padding: 5%;
+  cursor: pointer;
+  color: #130413;
+  margin-top: 3%;
+  border-radius: 5px;
+  background-color:#fff;
+}
+
+/* Rodape */
+.rodape {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+  text-align: center;
+  background: linear-gradient(to right, #5388e5, #7b70f9, #4880f0);
+}
+
+.socialicons a {
+  font-size: 1.5em;
+  margin-right: 3%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.socialicons a:hover { color: #fff; }
+
+.socialicons a:last-child { margin-right: 0; }
+
+.copyright {
+  margin-top: 2%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Formulário de cadastro */
+.section-cadastro {
+  width: 100%;
+}
+
+.section-cadastro h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.form-cadastro {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-cadastro fieldset {
+  padding: 10px;
+}
+
+.form-cadastro fieldset label {
+  margin-right: 15px;
+  padding: 10px 10px 10px 0;
+}
+
+.form-cadastro input {
+  padding: 10px;
+}
+
+.form-cadastro .btn-submit {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  width: 25%;
+  min-width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+
+/* smartphones */
+@media screen and (min-width: 710px){
+  .logo {
+      width: 300px;
+      background: url(../images/logo.png) center center/300px no-repeat;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 900px){
+  
+  /* .servicos section {
+    display: block;
+  }
+ */
+  .servico {
+      width: 49%;
+      float: left;
+      margin-right: 2%;
+  }
+
+  .servico:nth-child(2n+1){
+      margin-right: 0;
+  }
+
+  .artigo-quem-somos {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  .newsletter h2 { font-size: 2em; }
+
+  .btn-sign-up {
+      width: 50%;
+      padding: 2%;
+  }
+}
+
+
+/* tablets e desktops */
+@media screen and (min-width: 1080px){
+  .title {
+      width: 70%;
+      float: left;
+      text-align: left;
+  }
+
+  .title h2 { font-size: 3em; }
+  .title h3 { font-size: 2em; }
+
+  .buttons {
+      width: 30%;
+      float: right;
+      margin-top: 0;
+  }
+
+  .servico:nth-child(2n+1){
+    margin-right: 2%;
+}
+
+  .servico { 
+    width: 32%; 
+    margin-right: 2%; 
+  }
+
+  .servico:nth-child(4) { margin-right: 0; }
+
+  .btn-sign-up {
+    margin-top: 1%;
+    width: 30%;
+    float: none;
+  }
+
+}
+
+/* large devices */
+@media screen and (min-width: 950px) {
+  .btn-menu { display: none; }
+  .btn-close { display: none; }
+  
+  .menu {
+      width: auto;
+      height: 56px;
+      float: right;
+      display: block !important;
+      line-height: 56px;
+      position: static;
+      background-color: rgb(236, 255, 255);
+  }
+
+  .menu li {
+      padding: 0;
+      float: left;
+  }
+
+  .menu li a {
+      font-size: 1em;
+      padding: 15px;
+      color: #130400;
+  }
+
+  .menu li a:hover {
+      color: #6cb0ec;
+      border: none;
+  }
+}
