@@ -1,2 +1,2 @@
-# Projeto_Site_Simples
+# Projeto_Amorim_Cosméticos
 Projeto Amorim Cosméticos - Catálogo
