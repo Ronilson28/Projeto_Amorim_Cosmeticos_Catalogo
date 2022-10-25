@@ -28,20 +28,19 @@ a {
 }
 
 .logo {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   float: left;
   font-size: 0;
-  background: url(../images/logo-mobile.png) center center/70px no-repeat;
+  background: url(../images/logo-mobile.png) center center/58px no-repeat;
 }
-
 .btn-menu {
   width: 50px;
   height: 50px;
   float: right;
   position: fixed;
   right: 2%;
-  top: 7px;
+  top: 5px;
   color: #caf1ff;
   text-align: center;
   border-radius: 50px;
@@ -141,8 +140,8 @@ a {
 }
 
 .btn-loja-whatssap {
-  color: #130400;
-  background-color: #fff;
+  color: #001301;
+  background-color: rgb(255, 255, 255);
 }
 
 .btn-loja-instagram {
@@ -150,11 +149,14 @@ a {
   background-color: #130400;
 }
 
+.buttons button:hover {
+  color: #6cb0ec;
+}
+
 /* Serviços */
 .servicos {
   width: 100%;
   float: left;
-  /* padding: 3% 4%; */
 }
 
 .servicos section {
@@ -170,19 +172,11 @@ a {
   color: #3a33f2;
 }
 
-#servicos {
-  background-color: #fdb57a;
+#cfc {
+  background-color: rgb(212, 165, 255);
 }
 
-#quem-somos {
-  background-color:#ce2e3c;
-}
-
-#quem-somos h2 {
-  color: #fff;
-}
-
-.servico {
+.categoria {
   display: table;
   width: 100%;
   text-align: left;
@@ -191,43 +185,28 @@ a {
   background-color: #fff;
 }
 
-.servico img { 
+.categoria img { 
   border-radius: 7px 7px 0 0; 
   width: 100%;
 }
 
-.artigo-quem-somos {
-  display: table;
-  width: 100%;
-  text-align: left;
-  border: 7px;
-  margin-bottom: 3%;
-  background-color: white;
-  border-radius: 7px 7px 0 0;
-}
-
-.artigo-quem-somos img { 
-  border-radius: 7px 7px 0 0; 
-  width: 100%;
-}
-
-
-.inner { padding: 7%; }
+.inner { padding: 1.5%; }
 
 .inner a {
-  font-size: 1.5em;
+  margin-top: 1%;
+  font-size: 1.3em;
   color: #130400;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .inner h4 {
-  font-size: 1.2em;
-  color: #130400;
-  margin-top: 2%;
+  font-size: 1.5em;
+  color: #7e1adb;
+  margin-top: 3%;
 }
 
 .inner p { 
-  margin-top: 6%;
+  margin-top: 4%;
   color: #130400;
   line-height: 1.5em;
 }
@@ -248,13 +227,21 @@ a {
 }
 
 .btn-sign-up {
-  width: 80%;
+  width: 75%;
   padding: 5%;
   cursor: pointer;
   color: #130413;
   margin-top: 3%;
   border-radius: 5px;
   background-color:#fff;
+}
+
+.btn-sign-up a {
+  color: #000;
+}
+
+.btn-sign-up a:hover {
+  color: #6cb0ec;
 }
 
 /* Rodape */
@@ -311,7 +298,7 @@ a {
 }
 
 .form-cadastro .btn-submit {
-  background-color: green;
+  background:linear-gradient(to right, #2556ac, #4c42b6, #3268d4);
   color: white;
   padding: 10px;
   width: 25%;
@@ -324,34 +311,25 @@ a {
 
 
 /* smartphones */
-@media screen and (min-width: 710px){
+@media screen and (min-width: 720px){
   .logo {
-      width: 300px;
-      background: url(../images/logo.png) center center/300px no-repeat;
+      width: 350px;
+      margin-top: 1.5%;
+      background: url(../images/logo.png) center center/350px no-repeat;
   }
 }
 
 /* tablets */
 @media screen and (min-width: 900px){
-  
-  /* .servicos section {
-    display: block;
-  }
- */
-  .servico {
+
+  .categoria {
       width: 49%;
       float: left;
       margin-right: 2%;
   }
 
-  .servico:nth-child(2n+1){
+  .categoria:nth-child(2n+1){
       margin-right: 0;
-  }
-
-  .artigo-quem-somos {
-    width: 48%;
-    float: left;
-    margin-right: 2%;
   }
 
   .newsletter h2 { font-size: 2em; }
@@ -380,27 +358,28 @@ a {
       margin-top: 0;
   }
 
-  .servico:nth-child(2n+1){
+  .categoria:nth-child(2n+1){
     margin-right: 2%;
 }
 
-  .servico { 
+  .categoria { 
     width: 32%; 
     margin-right: 2%; 
   }
 
-  .servico:nth-child(4) { margin-right: 0; }
+  .categoria:nth-child(4) { margin-right: 0; }
+  .categoria:nth-child(7) { margin-right: 0; }
 
   .btn-sign-up {
     margin-top: 1%;
-    width: 30%;
+    width: 25%;
     float: none;
   }
 
 }
 
 /* large devices */
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1200px) {
   .btn-menu { display: none; }
   .btn-close { display: none; }
   
