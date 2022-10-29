@@ -314,13 +314,14 @@ a {
 @media screen and (min-width: 720px){
   .logo {
       width: 350px;
-      margin-top: 1.5%;
+      height: 65px;
+      margin-top: 1.2%;
       background: url(../images/logo.png) center center/350px no-repeat;
   }
 }
 
 /* tablets */
-@media screen and (min-width: 900px){
+@media screen and (min-width: 860px){
 
   .categoria {
       width: 49%;
@@ -342,7 +343,7 @@ a {
 
 
 /* tablets e desktops */
-@media screen and (min-width: 1080px){
+@media screen and (min-width: 1020px){
   .title {
       width: 70%;
       float: left;
@@ -379,23 +380,31 @@ a {
 }
 
 /* large devices */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1180px) {
   .btn-menu { display: none; }
   .btn-close { display: none; }
   
+  .logo{
+    margin-top: 1.4%;
+    margin-left: 35%;
+  }
+
   .menu {
       width: auto;
-      height: 56px;
+      height: 32px;
+      margin-right: 15%;
       float: right;
+      margin-top: 1.5%;
       display: block !important;
-      line-height: 56px;
+      line-height: 10px;
       position: static;
-      background-color: rgb(236, 255, 255);
+      background-color: #ecffff;
   }
 
   .menu li {
-      padding: 0;
-      float: left;
+    font-size: 1.1em;
+    padding: 0 25px;
+    float: left;
   }
 
   .menu li a {
